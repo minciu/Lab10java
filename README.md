@@ -1,5 +1,7 @@
 # Lab10java
 
+Protocolul este de tip TCP.
+
 GameServer:
 serverSocket asculta ceririle de conexiune ale clientilor.Metoda accept lasa
 serverSocket sa faca o conexiune, creand un Socket care corespunde cu conexiunea
