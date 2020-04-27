@@ -13,7 +13,8 @@ care citeste din acel socket. Intr-un loop primim mesajul(mesajele), iar un
 obiect PrintWriter este creat pentru a da clientului un raspuns.
 Thread-ul primeste mesajele si ii trimite clientului mesajele corespunzatoare,
 in functie de ce a trimis. Daca primeste mesajul stop socket-ul este inchis ce duce
-la intreruperea conexiunii.
+la intreruperea conexiunii.Totusichiar daca Thread-ul este "omorat" alti clienti se pot
+conecta la servar atata vreme cat au adresa si PORT-ul potrivite.
 
 GameClient: Creeaza un socket cu adresa si PORT-ul serverului,apoi clientului
 ii sunt acordate cateva proprietati: prin PrintWriter emite mesaje catre
