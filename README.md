@@ -25,6 +25,7 @@ terminata.
 OPTIONAL- primele 3 puncte:
 
 Proiectul ar trebui rulat in felul urmator:
+
 1 Se ruleaza o instanta de server si cel putin 2 de clienti.
 
 2 Pentru a incepe jocul trebuie sa introducem cateva comenzi exacte. Daca nu
